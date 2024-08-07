@@ -1,0 +1,298 @@
+.work-header {
+  background: #b383f3;
+  padding: 0px 96px;
+  height: 970px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.gradient-bg {
+  background: linear-gradient(90.34deg, #000000 0.88%, rgba(0, 0, 0, 0) 99.69%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 50%;
+}
+
+.work-header-circle,
+.work-header-shape {
+  position: absolute;
+}
+
+.work-header-circle {
+  bottom: 36px;
+  left: 172px;
+  width: 69px;
+  height: 69px;
+}
+
+.shape-one {
+  top: 128px;
+  left: 502px;
+  width: 97px;
+  height: 128px;
+}
+
+.shape-two {
+  top: 588px;
+  left: 757px;
+  width: 97px;
+  height: 128px;
+}
+
+.work-header-container {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.work-header-left-para {
+  width: 351px;
+  height: 53px;
+  opacity: 0px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 52.5px;
+  text-align: left;
+  color: #e4cfff;
+  animation: fadeIn 3s;
+}
+
+.work-header-left-heading {
+  width: 765px;
+  height: 205px;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+  animation: fadeIn 3s;
+}
+
+.work-header-right img {
+  width: 800px;
+}
+
+.work-header-left-btn {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-top: 50px;
+}
+
+.work-header-left-btn button {
+  width: 282px;
+  height: 66px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.work-header-left-btn .btn-purp {
+  background: #d6b8ff;
+}
+
+.work-header-left-btn .btn-purp:hover {
+  background: #d0aeff;
+}
+
+.work-header-left-btn .btn-gray {
+  background: #363636;
+}
+
+.work-header-left-btn .btn-gray:hover {
+  background: #2e2e2e;
+}
+
+@media (max-width: 1440px) {
+  .work-header {
+    padding: 0px 40px;
+    height: 100vh;
+  }
+
+  .work-header-circle {
+    bottom: 30px;
+    left: 142px;
+    width: 59px;
+    height: 59px;
+  }
+
+  .shape-one {
+    top: 50px;
+    left: 502px;
+    width: 77px;
+    height: 108px;
+  }
+
+  .shape-two {
+    top: 300px;
+    left: 737px;
+    width: 77px;
+    height: 108px;
+  }
+
+  .work-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .work-header-left,
+  .work-header-right {
+    width: 50%;
+  }
+
+  .work-header-left-para {
+    font-size: 30px;
+    line-height: 42.5px;
+  }
+
+  .work-header-left-heading {
+    font-size: 45px;
+    color: white;
+    line-height: 65px;
+  }
+
+  .work-header-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .work-header-left-btn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 50px;
+  }
+
+  .work-header-left-btn button {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .shape-one {
+    top: 28px;
+    left: 402px;
+    width: 67px;
+    height: 98px;
+  }
+
+  .shape-two {
+    top: 288px;
+    left: 557px;
+    width: 67px;
+    height: 98px;
+  }
+
+  .work-header-left-para {
+    font-size: 25px;
+  }
+
+  .work-header-left-heading {
+    width: 100%;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .work-header-left-btn button {
+    width: 222px;
+    height: 56px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 920px) {
+  .work-header {
+    padding: 0px 15px;
+    height: 60vh;
+  }
+
+  .work-header-left-para {
+    font-size: 35px;
+  }
+
+  .work-header-left-heading {
+    z-index: 2;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    line-height: 75px;
+  }
+
+  .work-header-left {
+    width: 100%;
+  }
+
+  .work-header-right {
+    display: none;
+  }
+
+  .work-header-left-btn button {
+    width: 50%;
+    height: 66px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-header-left-heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 540px) {
+  .work-header {
+    height: 70vh;
+    padding: 0 15px;
+  }
+
+  .work-header-left-para {
+    font-size: 25px;
+  }
+
+  .work-header-left-heading {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .work-header-circle {
+    width: 40px;
+    height: 40px;
+    left: 70px;
+    bottom: -20px;
+  }
+  .shape-one {
+    width: 50px;
+    height: 50px;
+    left: 70px;
+    top: 0px;
+  }
+
+  .shape-two {
+    width: 50px;
+    height: 50px;
+    left: 280px;
+  }
+
+  .work-header-left-btn {
+    margin-top: 0px;
+  }
+
+  .work-header-left-btn button {
+    width: 80%;
+    font-size: 14px;
+  }
+}

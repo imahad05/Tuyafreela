@@ -1,0 +1,188 @@
+.work-become-section {
+  padding: 50px 96px;
+}
+
+.work-become {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-become-left-heading-one {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 67.5px;
+  text-align: left;
+  color: #363636;
+}
+
+.work-become-left-heading-two {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: left;
+  color: #363636;
+}
+
+.work-become-left-heading-para {
+  color: #363636;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin: 30px 0;
+  width: 689px;
+  height: 90px;
+}
+
+.work-become-right img {
+  width: 769px;
+  height: 662px;
+}
+
+.work-become-left-btn {
+  background: #d6b8ff;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  width: 301px;
+  height: 66px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.work-become-left-btn:hover {
+  transition: 0.3s;
+  background: #cfadff;
+}
+
+@media (max-width: 1440px) {
+  .work-become-section {
+    padding: 50px 40px;
+  }
+  .work-become {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .work-become-left {
+    padding-left: 0px;
+  }
+
+  .work-become-left-heading-one {
+    font-size: 40px;
+  }
+
+  .work-become-left-heading-two {
+    font-size: 40px;
+  }
+
+  .work-become-left-heading-para {
+    font-size: 18px;
+    font-weight: 400;
+    width: 589px;
+    height: auto;
+  }
+
+  .work-become-right img {
+    width: 569px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .work-become-left-heading-one {
+    font-size: 30px;
+    line-height: 47.5px;
+  }
+
+  .work-become-left-heading-two {
+    font-size: 30px;
+    line-height: 40.5px;
+  }
+
+  .work-become-left-heading-para {
+    color: #363636;
+    font-size: 18px;
+  }
+
+  .work-become-right img {
+    width: 350px;
+  }
+
+  .work-become-left-btn {
+    background: #d6b8ff;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    width: 301px;
+    height: 66px;
+  }
+}
+
+@media (max-width: 920px) {
+  .work-become {
+    gap: 10px;
+  }
+
+  .work-become-left-heading-one {
+    font-size: 30px;
+    line-height: 47.5px;
+  }
+
+  .work-become-left-heading-two {
+    font-size: 30px;
+    line-height: 47.5px;
+  }
+
+  .work-become-left-heading-para {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .work-become-right img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-become {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .work-become-left-heading-one {
+    font-size: 28px;
+    line-height: 47.5px;
+  }
+
+  .work-become-left-heading-two {
+    font-size: 28px;
+    line-height: 47.5px;
+  }
+
+  .work-become-left-heading-para {
+    font-size: 16px;
+  }
+
+  .work-become-right img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 540px) {
+  .work-become-left-btn {
+    font-size: 16px;
+    width: 100%;
+  }
+}

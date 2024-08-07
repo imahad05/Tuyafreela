@@ -1,0 +1,231 @@
+.register-one {
+  width: 600px;
+  padding: 10px;
+}
+
+.register-heading {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.register-heading span {
+  font-weight: 700;
+}
+
+.register-radio-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.radio-client,
+.radio-freelancer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.radio-client label,
+.radio-freelancer label {
+  font-size: 30px;
+  color: #363636;
+}
+
+.radio-client input,
+.radio-freelancer input {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.multiple-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.multiple-input input {
+  width: 50%;
+  height: 66px;
+  border-radius: 10px;
+  background: #d8d8d8;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.full-filed-input input {
+  width: 100%;
+  height: 66px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #d8d8d8;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.accept-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.accept-input input {
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.accept-input label {
+  font-size: 20px;
+}
+
+.accept-input label span {
+  color: blue;
+  font-weight: 600;
+}
+
+.register-btn {
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  background: #363636;
+  border-radius: 10px;
+  height: 66px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.new-user {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.new-user span {
+  text-decoration: underline;
+  color: #d6b8ff;
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .register-one {
+    width: 550px;
+    padding: 10px;
+  }
+
+  .register-heading {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .radio-client label,
+  .radio-freelancer label {
+    font-size: 25px;
+  }
+
+  .radio-client input,
+  .radio-freelancer input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .multiple-input input {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .full-filed-input input {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .accept-input input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .accept-input label {
+    font-size: 18px;
+  }
+
+  .register-btn {
+    font-size: 18px;
+    height: 60px;
+  }
+
+  .new-user {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .register-heading {
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 540px) {
+  .register-one {
+    width: 100%;
+    padding: 10px;
+  }
+  .register-heading {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .radio-client label,
+  .radio-freelancer label {
+    font-size: 16px;
+  }
+
+  .radio-client input,
+  .radio-freelancer input {
+    width: 15px;
+    height: 15px;
+  }
+
+  .multiple-input{
+    flex-direction: column;
+  }
+
+  .multiple-input input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .full-filed-input input {
+    font-size: 16px;
+  }
+
+  .accept-input input {
+    width: 15px;
+    height: 15px;
+  }
+
+  .accept-input label {
+    font-size: 16px;
+  }
+
+  .register-btn {
+    font-size: 16px;
+  }
+
+  .new-user {
+    font-size: 14px;
+  }
+}

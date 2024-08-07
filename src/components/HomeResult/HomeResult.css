@@ -1,0 +1,174 @@
+.result {
+  padding: 124px 96px 106px;
+}
+
+.result-heading {
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 73.5px;
+  text-align: center;
+}
+
+.result-container {
+  width: 60%;
+  margin: 57px auto 120px;
+}
+
+.result-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.result-box {
+  text-align: center;
+}
+
+.result-img-box img {
+  width: 130.61px;
+  height: 130.61px;
+}
+
+.result-box-num {
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 145.5px;
+}
+
+.result-box-title {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 57px;
+}
+
+.result-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+.result-btn button {
+  width: 504px;
+  height: 122px;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result-btn-purp {
+  background: #d6b8ff;
+}
+
+.result-btn-purp:hover {
+  background: #cfacff;
+  transition: 0.3s;
+}
+
+.result-btn-gray {
+  background: #6c7a89;
+}
+
+.result-btn-gray:hover {
+  background: #596470;
+  transition: 0.3s;
+}
+
+@media (max-width: 1440px) {
+  .result {
+    padding: 100px 0px 40px;
+  }
+
+  .result-heading {
+    font-size: 45px;
+  }
+
+  .result-container {
+    width: 80%;
+    margin: 47px auto 90px;
+  }
+
+  .result-img-box img {
+    width: 120.61px;
+    height: 120.61px;
+  }
+
+  .result-box-num {
+    font-size: 77px;
+    line-height: 100px;
+  }
+
+  .result-box-title {
+    font-size: 30px;
+  }
+
+  .result-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+  }
+
+  .result-btn button {
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .result-heading {
+    font-size: 40px;
+  }
+
+  .result-box-num {
+    font-size: 67px;
+    line-height: 80px;
+  }
+
+  .result-box-title {
+    font-size: 28px;
+  }
+
+  .result-btn button {
+    width: 300px;
+    height: 66px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 820px) {
+  .result {
+    padding: 50px 15px;
+  }
+
+  .result-container {
+    width: 100%;
+  }
+
+  .result-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .result-heading {
+    font-size: 35px;
+    line-height: 33.5px;
+  }
+}
+
+@media (max-width: 540px) {
+  .result-box {
+    width: 100%;
+  }
+}

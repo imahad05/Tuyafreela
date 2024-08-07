@@ -1,0 +1,135 @@
+.term-of-uses-header {
+  background: #b383f3;
+  position: relative;
+  width: 100%;
+  height: 592px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.term-of-uses-header-bg {
+  position: absolute;
+  background: linear-gradient(90.34deg, #000000 0.28%, rgba(0, 0, 0, 0) 99.69%);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: -990px;
+}
+
+.term-of-uses-heading {
+  font-family: Poppins;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 105px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.term-of-uses-header img {
+  width: 60px;
+  position: absolute;
+  z-index: 2;
+}
+
+.term-of-uses-shape-one {
+  width: 97px;
+  height: 128px;
+  top: 68px;
+  left: 502px;
+}
+
+.term-of-uses-shape-two {
+  width: 97px;
+  height: 128px;
+  top: 416px;
+  left: 757px;
+}
+
+@media (max-width: 1440px) {
+  .term-of-uses-header {
+    height: 80vh;
+  }
+
+  .term-of-uses-header-bg {
+    left: -60%;
+  }
+
+  .term-of-uses-heading {
+    font-size: 60px;
+  }
+
+  .term-of-uses-shape-one {
+    height: auto;
+  }
+
+  .term-of-uses-shape-two {
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .term-of-uses-header {
+    height: 70vh;
+  }
+
+  .term-of-uses-heading {
+    font-size: 49px;
+  }
+
+  .term-of-uses-shape-one {
+    top: 38px;
+    left: 252px;
+  }
+
+  .term-of-uses-shape-two {
+    top: 316px;
+  }
+}
+
+@media (max-width: 920px) {
+  .term-of-uses-header {
+    height: 50vh;
+  }
+
+  .term-of-uses-heading {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 105px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .term-of-uses-shape-one {
+    top: 68px;
+    left: 200px;
+  }
+
+  .term-of-uses-shape-two {
+    top: 416px;
+    left: 557px;
+  }
+}
+
+@media (max-width: 540px) {
+  .term-of-uses-header {
+    height: 50vh;
+  }
+
+  .term-of-uses-heading {
+    font-size: 30px;
+  }
+
+  .term-of-uses-shape-one {
+    top: 38px;
+    left: 20px;
+    width: 50px;
+  }
+
+  .term-of-uses-shape-two {
+    top: 270px;
+    left: 250px;
+  }
+}

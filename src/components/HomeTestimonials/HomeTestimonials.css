@@ -1,0 +1,261 @@
+.testimonial {
+  padding: 106px 142px 190px;
+  background: #f6f6f6;
+}
+
+.testimonial-section-heading {
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 73.5px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.testimonial-section-heading span {
+  font-weight: 700;
+  color: #d6b8ff;
+}
+
+.testimonial-container {
+  position: relative;
+  width: 1631px;
+  height: 530px;
+  box-shadow: 0px 3px 10px 0px #0000000f;
+  background: #ffffff;
+  display: flex;
+  padding: 0 66px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.testimonial-boxes {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  animation: fadeIn 1s;
+}
+
+.quote {
+  font-family: Rubik;
+  position: absolute;
+  top: -150px;
+  right: 100px;
+  color: #d6b8ff;
+  font-size: 380px;
+  font-weight: 400;
+  line-height: 450.3px;
+}
+
+.testimonial-boxes .avatar {
+  width: 320px;
+  height: 320px;
+  margin-right: 35px;
+}
+
+.testimonial-content p {
+  width: 994px;
+  height: 147px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29.63px;
+  text-align: left;
+}
+
+.testimonial-content h3 {
+  color: #d6b8ff;
+  margin-top: 23px;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 43.5px;
+  text-align: left;
+}
+.testimonial-dots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 91px;
+}
+
+.testimonial-dots .dot {
+  width: 16px;
+  height: 16px;
+  background: #d6b8fe;
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.dot.show-outline {
+  scale: 1.1;
+  opacity: 1;
+}
+
+@media (max-width: 1440px) {
+  .testimonial {
+    padding: 100px 40px 120px;
+    background: #f6f6f6;
+  }
+
+  .testimonial-section-heading {
+    font-size: 45px;
+  }
+
+  .testimonial-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 0 46px;
+  }
+  .quote {
+    top: -170px;
+    font-size: 300px;
+  }
+
+  .testimonial-boxes .avatar {
+    width: 270px;
+    height: auto;
+    margin-right: 35px;
+  }
+
+  .testimonial-content p {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .testimonial-dots .dot {
+    width: 14px;
+    height: 14px;
+  }
+
+  .dot.show-outline {
+    scale: 1.1;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonial {
+    padding: 70px 40px;
+  }
+
+  .testimonial-section-heading {
+    font-size: 40px;
+  }
+
+  .testimonial-container {
+    height: 400px;
+    padding: 0 20px;
+  }
+
+  .testimonial-boxes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .quote {
+    font-family: Rubik;
+    position: absolute;
+    top: -170px;
+    right: 50px;
+    color: #d6b8ff;
+    font-size: 280px;
+    font-weight: 400;
+    line-height: 450.3px;
+  }
+
+  .testimonial-boxes .avatar {
+    width: 200px;
+    margin-right: 25px;
+  }
+
+  .testimonial-content p {
+    font-size: 18px;
+    line-height: 25.63px;
+  }
+
+  .testimonial-content h3 {
+    line-height: 35px;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+
+  .testimonial-dots {
+    margin-left: 40px;
+  }
+
+  .testimonial-dots .dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    padding: 50px 10px;
+  }
+
+  .testimonial-section-heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .testimonial-container {
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .testimonial-boxes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .quote {
+    font-family: Rubik;
+    position: absolute;
+    top: -190px;
+    right: 10px;
+    color: #d6b8ff;
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 450.3px;
+  }
+
+  .testimonial-boxes .avatar {
+    width: 180px;
+    margin-right: 35px;
+  }
+
+  .testimonial-content p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.63px;
+    text-align: center;
+
+  }
+
+  .testimonial-content h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .testimonial-dots {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
